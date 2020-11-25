@@ -14,6 +14,10 @@
 .text-bold {
   font-weight: bold;
 }
+
+h3 {
+  font-size: 18px;
+}
 /* end UTILITY CLASS */
 
 /* Navbar restyling */
@@ -113,10 +117,6 @@ header .form-container .bl-form .form-group:nth-child(2) .form-control {
   padding-left: 8px;
 }
 
-header .form-container .bl-form .form-control {
-
-}
-
 header .form-container .bl-form .form-control::placeholder {
   color: #7D7575;
   font-weight: bold;
@@ -133,4 +133,34 @@ header .form-container .bl-form .google-signup {
 
 header .form-container .terms-service a {
   text-decoration: underline;
+}
+
+main > .customers {
+  background-color: #F3F5F9;
+  padding: 30px 0;
+}
+
+main > .customers h3 {
+  padding-bottom: 60px;
+}
+
+main > .customers .col-logo:nth-child(-n+4) {
+  padding-bottom: 70px;
+}
+
+main > .customers .col-logo:nth-child(n+5) {
+  padding-bottom: 30px;
+}
+
+main > .customers .col-logo .customer-logo {
+  width: 240px;
+}
+
+main > .customers .col-logo .customer-logo img {
+  width: 100%;
+  height: auto;
+}
+
+main > .customers .customer-stories {
+  font-size: 17px;
 }
