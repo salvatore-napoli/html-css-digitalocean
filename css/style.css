@@ -1,6 +1,18 @@
 /* UTILITY CLASS */
-.text-black {
-  color: black;
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: #006aff;
+}
+
+.text-grey {
+  color: #7d7575;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 /* end UTILITY CLASS */
 
@@ -54,7 +66,6 @@
 .bl-navbar .navbar-collapse ul.navbar-right > li > .sign-up-btn {
   background: transparent;
   border-color: #006aff;
-  color: #006aff;
   height: 35px;
   width: 80px;
 }
@@ -65,7 +76,61 @@
 }
 /* end Navbar restyling */
 
-.bl {
-  height: 100px;
-  background-color: blue;
+header {
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding-top: 60px;
+}
+
+header p {
+  color: #D7F5FF;
+  font-size: 22px;
+}
+
+header .form-container {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+}
+
+header .form-container h2:first-child {
+  padding-top: 30px;
+}
+
+header .form-container h2:nth-child(2) {
+  margin-top: -1px;
+}
+
+header .form-container .bl-form .form-group:first-child .form-control,
+header .form-container .bl-form .form-group:nth-child(2) .form-control {
+  border-color: rgba(201, 201, 201, 0.3);
+  height: 50px;
+  padding-left: 8px;
+}
+
+header .form-container .bl-form .form-control {
+
+}
+
+header .form-container .bl-form .form-control::placeholder {
+  color: #7D7575;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header .form-container .bl-form .create-account {
+  background-color: #0069ff;
+}
+
+header .form-container .bl-form .google-signup {
+  box-shadow: 1px 1px 1px #c9c9c9;
+}
+
+header .form-container .terms-service a {
+  text-decoration: underline;
 }
