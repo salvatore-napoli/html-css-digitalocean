@@ -1,0 +1,71 @@
+/* UTILITY CLASS */
+.text-black {
+  color: black;
+}
+/* end UTILITY CLASS */
+
+/* Navbar restyling */
+.bl-navbar {
+  background-image: none;
+  border-radius: 0;
+  background-color: white;
+  box-shadow: none;
+  height: 65px;
+}
+
+.bl-navbar .navbar-header .logo {
+  height: 28px;
+  line-height: 65px;
+  padding-right: 150px;
+}
+
+.bl-navbar .navbar-header .logo img {
+  height: 100%;
+}
+
+.bl-navbar .navbar-header button.navbar-toggle {
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.bl-navbar .navbar-header button.navbar-toggle .icon-bar {
+  background-color: #5299FD;
+  height: 3px;
+}
+
+.bl-navbar .navbar-collapse ul.navbar-nav > li > span,
+.bl-navbar .navbar-collapse ul.navbar-right > li:last-child {
+  line-height: 73px;
+}
+
+.bl-navbar .navbar-collapse ul.navbar-nav > li > span > a {
+  color: black;
+  padding: 0;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.bl-navbar .navbar-collapse ul.navbar-nav > li > span > a:hover {
+  color: #5299FD;
+}
+
+.bl-navbar .navbar-collapse ul.navbar-right > li > .sign-up-btn {
+  background: transparent;
+  border-color: #006aff;
+  color: #006aff;
+  height: 35px;
+  width: 80px;
+}
+
+.bl-navbar .navbar-collapse ul.navbar-right > li > .sign-up-btn:hover {
+  background-color: #5299FD;
+  color: white;
+}
+/* end Navbar restyling */
+
+.bl {
+  height: 100px;
+  background-color: blue;
+}
