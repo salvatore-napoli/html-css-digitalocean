@@ -11,12 +11,28 @@
   color: #7d7575;
 }
 
+.text-darkblue {
+  color: #031B4E;
+}
+
 .text-bold {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 38px;
+}
+
 h3 {
-  font-size: 18px;
+  font-size: 19px;
+}
+
+.h3-style {
+  line-height: 24px;
+}
+
+p {
+  font-size: 22px;
 }
 /* end UTILITY CLASS */
 
@@ -90,9 +106,8 @@ h1 {
   padding-top: 60px;
 }
 
-header p {
+header .jumbotron-description {
   color: #D7F5FF;
-  font-size: 22px;
 }
 
 header .form-container {
@@ -163,4 +178,39 @@ main > .customers .col-logo .customer-logo img {
 
 main > .customers .customer-stories {
   font-size: 17px;
+}
+
+main > .deployment {
+  padding: 65px 0;
+}
+
+main > .deployment .deployment-description {
+  padding-bottom: 60px;
+}
+
+main > .deployment ul.config-process {
+  padding-bottom: 25px;
+}
+
+main > .deployment ul.config-process > li {
+  border-left: 2px solid #7d7575;
+  padding-left: 15px;
+  font-size: 22px;
+}
+
+main > .deployment ul.config-process > li:hover {
+  color: darkblue;
+  border-left: 2px solid darkblue;
+}
+
+main > .deployment ul.config-process > li:first-child {
+  padding-top: 10px;
+}
+
+main > .deployment ul.config-process > li:nth-child(-n+4) {
+  padding-bottom: 20px;
+}
+
+main > .deployment ul.config-process > li:last-child {
+  padding-bottom: 10px;
 }
