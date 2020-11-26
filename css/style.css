@@ -39,7 +39,7 @@ p {
   font-size: 22px;
 }
 
-i.fa.fa-angle-right {
+.angle-right {
   padding-left: 8px;
   font-weight: bold;
 }
@@ -278,6 +278,7 @@ main > .developers h2 {
 main > .developers .droplets-figure img {
   padding-top: 135px;
   padding-bottom: 20px;
+  height: 350px;
 }
 
 main > .developers .droplets-figure figcaption {
@@ -343,7 +344,27 @@ main > .business .business-feature a {
   }
 
   main > .deployment .deploy-feature {
-    height: 270px;
+    min-height: 270px;
+  }
+
+  main > .developers .droplets-figure i.fa-chevron-right,
+  main > .developers .droplets-figure i.fa-chevron-left {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+
+  main > .developers .droplets-figure i.fa-chevron-right {
+    color: #031B4E;
+  }
+
+  main > .developers .droplets-figure i.fa-chevron-left {
+    color: rgba(3, 27, 78, 0.5);
+  }
+
+  main > .developers .droplets-figure img {
+    height: 400px;
+    vertical-align: -100px;
   }
 }
 /* end Versione Tablet */
@@ -367,7 +388,17 @@ main > .business .business-feature a {
   }
 
   main > .deployment .deploy-feature {
-    height: 200px;
+    min-height: 200px;
+  }
+
+  main > .developers .droplets-figure i.fa-chevron-right,
+  main > .developers .droplets-figure i.fa-chevron-left {
+    padding: 0 30px;
+  }
+
+  main > .developers .droplets-figure img {
+    height: 600px;
+    vertical-align: -200px;
   }
 }
 /* Versione Desktop */
