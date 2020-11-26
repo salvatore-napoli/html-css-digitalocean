@@ -233,31 +233,35 @@ main > .deployment .deployment-description {
   padding-bottom: 60px;
 }
 
-main > .deployment ul.config-process {
+main > .deployment ul {
   padding-bottom: 25px;
 }
 
-main > .deployment ul.config-process > li {
+main > .deployment ul > li {
   border-left: 2px solid #7d7575;
   padding-left: 15px;
   font-size: 22px;
 }
 
-main > .deployment ul.config-process > li:hover {
+main > .deployment ul > li:hover {
   color: darkblue;
   border-left: 2px solid darkblue;
 }
 
-main > .deployment ul.config-process > li:first-child {
+main > .deployment ul > li:first-child {
   padding-top: 10px;
 }
 
-main > .deployment ul.config-process > li:nth-child(-n+4) {
+main > .deployment ul > li:nth-child(-n+4) {
   padding-bottom: 20px;
 }
 
-main > .deployment ul.config-process > li:last-child {
+main > .deployment ul > li:last-child {
   padding-bottom: 10px;
+}
+
+main > .deployment .deploy-feature .deploy-desc {
+  font-size: 19px;
 }
 /* end Sezione Deployment */
 
@@ -338,6 +342,9 @@ main > .business .business-feature a {
     width: 100px;
   }
 
+  main > .deployment .deploy-feature {
+    height: 270px;
+  }
 }
 /* end Versione Tablet */
 
@@ -357,6 +364,10 @@ main > .business .business-feature a {
 
   main > .customers .customer-logo-container .customer-logo {
     width: 170px;
+  }
+
+  main > .deployment .deploy-feature {
+    height: 200px;
   }
 }
 /* Versione Desktop */
