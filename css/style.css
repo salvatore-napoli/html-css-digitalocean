@@ -4,7 +4,7 @@
 }
 
 .text-blue {
-  color: #006aff;
+  color: #0069ff;
 }
 
 .text-grey {
@@ -96,6 +96,7 @@ p {
 }
 /* end Navbar restyling */
 
+/* Jumbotron */
 header {
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
@@ -149,7 +150,9 @@ header .form-container .bl-form .google-signup {
 header .form-container .terms-service a {
   text-decoration: underline;
 }
+/* end Jumbotron */
 
+/* Sezione Customers */
 main > .customers {
   background-color: #F3F5F9;
   padding: 30px 0;
@@ -168,7 +171,7 @@ main > .customers .col-logo:nth-child(n+5) {
 }
 
 main > .customers .col-logo .customer-logo {
-  width: 240px;
+  width: 180px;
 }
 
 main > .customers .col-logo .customer-logo img {
@@ -179,7 +182,9 @@ main > .customers .col-logo .customer-logo img {
 main > .customers .customer-stories {
   font-size: 17px;
 }
+/* end Sezione Customers */
 
+/* Sezione Deployment */
 main > .deployment {
   padding: 65px 0;
 }
@@ -214,3 +219,41 @@ main > .deployment ul.config-process > li:nth-child(-n+4) {
 main > .deployment ul.config-process > li:last-child {
   padding-bottom: 10px;
 }
+/* end Sezione Deployment */
+
+/* Sezione Developers */
+main > .developers {
+  background-color: #F3F5F9;
+  padding-top: 70px;
+}
+
+main > .developers h2 {
+  padding-bottom: 20px;
+}
+
+main > .developers .droplets-figure img {
+  padding-top: 135px;
+  padding-bottom: 20px;
+}
+
+main > .developers .droplets-figure figcaption {
+  font-size: 16px;
+  padding-bottom: 80px;
+}
+
+main > .developers ul {
+  padding-bottom: 50px;
+}
+
+main > .developers ul li {
+  height: 13px;
+  width: 13px;
+  border: 1px solid #0069ff;
+  border-radius: 50%;
+}
+
+main > .developers ul li:first-child,
+main > .developers ul li:active {
+  background-color: #0069ff;
+}
+/* end Sezione Developers */
