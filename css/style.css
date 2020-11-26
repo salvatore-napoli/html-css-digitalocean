@@ -34,6 +34,11 @@ h3 {
 p {
   font-size: 22px;
 }
+
+i.fa.fa-angle-right {
+  padding-left: 8px;
+  font-weight: bold;
+}
 /* end UTILITY CLASS */
 
 /* Navbar restyling */
@@ -257,3 +262,18 @@ main > .developers ul li:active {
   background-color: #0069ff;
 }
 /* end Sezione Developers */
+
+/* Sezione Business */
+main > .business {
+  padding: 70px 0;
+}
+
+main > .business .business-feature img {
+  padding-top: 30px;
+}
+
+main > .business .business-feature p,
+main > .business .business-feature a {
+  font-size: 17px;
+}
+/* end Sezione Business */
