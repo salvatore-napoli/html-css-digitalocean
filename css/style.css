@@ -56,6 +56,33 @@ p {
 i.fa.fa-chevron-down {
   margin-left: -4px;
 }
+
+.big-chevron-right,
+.big-chevron-left {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.big-chevron-right {
+  color: #031B4E;
+}
+
+.big-chevron-left {
+  color: rgba(3, 27, 78, 0.5);
+}
+
+.slide-tracker-circle {
+  height: 13px;
+  width: 13px;
+  border: 1px solid #0069ff;
+  border-radius: 50%;
+}
+
+.slide-tracker-circle:first-child,
+.slide-tracker-circle:active {
+  background-color: #0069ff;
+}
 /* end UTILITY CLASS */
 
 /* Navbar restyling */
@@ -294,18 +321,6 @@ main > #developers .droplets-figure figcaption {
 main > #developers ul {
   padding-bottom: 50px;
 }
-
-main > #developers ul li {
-  height: 13px;
-  width: 13px;
-  border: 1px solid #0069ff;
-  border-radius: 50%;
-}
-
-main > #developers ul li:first-child,
-main > #developers ul li:active {
-  background-color: #0069ff;
-}
 /* end Sezione Developers */
 
 /* Sezione Business */
@@ -343,7 +358,36 @@ main > #worldwide .regions .list-bordered .city {
 }
 /* end Sezione Worldwide */
 
-/* Versione Tablet */
+/* Sezione Teams */
+main > #teams {
+  background-color: #F3F5F9;
+  padding: 70px 0 50px;
+}
+
+main > #teams .team-slider {
+  padding-top: 50px;
+  margin: 90px 0 40px;
+  background-color: white;
+  border-radius: 5px;
+  width: 65%;
+  display: inline-block;
+  vertical-align: -130px;
+}
+
+main > #teams .team-slider .team-logo img {
+  width: 100%;
+}
+
+main > #teams .team-slider .team-quote {
+  padding-top: 15px;
+}
+
+main > #teams .team-slider .team-story {
+  padding: 25px 0 40px;
+}
+/* end Sezione Teams */
+
+/* VERSIONE TABLET */
 @media screen and (min-width: 768px) {
   header .form-container {
     margin-top: 65px;
@@ -370,32 +414,30 @@ main > #worldwide .regions .list-bordered .city {
     min-height: 270px;
   }
 
-  main > #developers .droplets-figure i.fa-chevron-right,
-  main > #developers .droplets-figure i.fa-chevron-left {
-    font-size: 35px;
-    font-weight: bold;
-    padding: 0 10px;
-  }
-
-  main > #developers .droplets-figure i.fa-chevron-right {
-    color: #031B4E;
-  }
-
-  main > #developers .droplets-figure i.fa-chevron-left {
-    color: rgba(3, 27, 78, 0.5);
-  }
-
   main > #developers .droplets-figure img {
     height: 400px;
     vertical-align: -100px;
   }
-}
-/* end Versione Tablet */
 
-/* Versione Desktop */
+  main > #teams .team-slider {
+    width: 55%;
+  }
+
+  main > #teams .team-slider .team-logo img {
+    width: 75%;
+  }
+}
+/* end VERSIONE TABLET */
+
+/* VERSIONE DESKTOP */
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 60px;
+  }
+
+  .big-chevron-left,
+  .big-chevron-right {
+    padding: 0 30px;
   }
 
   header .jumbotron-description {
@@ -423,5 +465,9 @@ main > #worldwide .regions .list-bordered .city {
     height: 600px;
     vertical-align: -200px;
   }
+
+  main > #teams .team-slider {
+    vertical-align: -100px;
+  }
 }
-/* Versione Desktop */
+/* VERSIONE DESKTOP */
