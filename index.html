@@ -61,61 +61,49 @@
     <!-- end Barra di navigazione -->
 
     <!-- Jumbotron -->
-    <header class="container-fluid">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-7">
+            <h1 class="text-white text-bold">The simplest cloud platform for developers & teams</h1>
+            <p class="jumbotron-description">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+          </div>
 
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <h1 class="text-white text-bold">The simplest cloud platform for developers & teams</h1>
-          <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
-        </div>
+          <div class="col-xs-12 col-sm-6 col-md-5">
+            <div class="text-center form-container container-fluid">
+              <h2 class="text-bold text-darkblue smaller-h2">Deploy your app in seconds.</h2>
+              <h2 class="text-blue text-bold smaller-h2">Get started now.</h2>
 
-        <div class="col-xs-12 col-sm-6">
-          <div class="row">
-            <div class="container">
-              <div class="text-center form-container">
+              <!-- Jumbotron Form -->
+              <form class="bl-form row">
 
-                <h2 class="text-bold text-darkblue">Deploy your app in seconds.</h2>
-                <h2 class="text-blue text-bold">Get started now.</h2>
+                <div class="form-group col-xs-12">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
 
-                <div class="container">
+                <div class="form-group col-xs-12">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
 
-                <!-- Jumbotron Form -->
-                <form class="bl-form">
-                  <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
-                  </div>
+                <div class="form-group col-xs-12">
+                  <a href="#" class="btn form-control text-white create-account">Create your account</a>
+                </div>
 
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password">
-                  </div>
+                <div class="form-group col-xs-12">
+                  <a href="#" class="btn form-control text-grey text-bold google-signup">
+                    <div class="google-logo">
+                      <img src="img/rsz-google-logo.png" alt="logo google" />
+                    </div>
+                    <span>Sign up with google</span>
+                  </a>
+                </div>
 
-                  <div class="form-group">
-                    <a href="#" class="btn form-control text-white create-account">Create your account</a>
-                  </div>
+              </form>
+              <!-- end Jumbotron Form -->
+              <span class="terms-service text-bold">By signing up you agree to the <a href="#">Terms of Service</a>.</span>
 
-                  <div class="form-group">
-                    <a href="#" class="btn form-control text-grey text-bold google-signup">
-                      <div class="row">
-                        <div class="col-xs-12">
-                          <div class="row">
-                            <div class="col-xs-2"><img src="img/rsz-google-logo.png" alt="logo google" /></div>
-                            <div class="col-xs-4 col-xs-offset-2">
-                              <span>Sign up with google</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-
-                </form>
-                <!-- end Jumbotron Form -->
-
-                <span class="terms-service text-bold">By signing up you agree to the <a href="#">Terms of Service</a>.</span>
-              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </header>
@@ -127,46 +115,45 @@
       <section class="customers">
         <div class="container text-center">
           <h3 class="text-grey text-uppercase text-bold">innovative businesses trust digitalocean</h3>
-          <div class="row">
 
-            <div class="col-xs-6 col-logo">
-              <div class="customer-logo">
-                <img src="img/docker.png" alt="logo docker">
-              </div>
+          <div class="customer-logo-container">
+            <div class="customer-logo">
+              <img src="img/docker.svg" alt="logo docker">
             </div>
-
-            <div class="col-xs-6 col-logo">
-              <div class="customer-logo">
-                <img src="img/gitlab.png" alt="logo gitlab">
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-logo">
-              <div class="customer-logo">
-                <img src="img/slack.png" alt="logo slack">
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-logo">
-              <div class="customer-logo">
-              <img src="img/hashicorp.png" alt="logo hashicorp">
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-logo">
-              <div class="customer-logo">
-              <img src="img/hashicorp.png" alt="logo hashicorp">
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-logo">
-              <div class="customer-logo">
-              <img src="img/splunk.webp" alt="logo splunk">
-              </div>
-            </div>
-
           </div>
+
+          <div class="customer-logo-container">
+            <div class="customer-logo">
+              <img src="img/gitlab.svg" alt="logo gitlab">
+            </div>
+          </div>
+
+          <div class="customer-logo-container">
+            <div class="customer-logo">
+              <img src="img/slack.svg" alt="logo slack">
+            </div>
+          </div>
+
+          <div class="customer-logo-container">
+            <div class="customer-logo">
+              <img src="img/hashicorp.svg" alt="logo hashicorp">
+            </div>
+          </div>
+
+          <div class="customer-logo-container">
+            <div class="customer-logo">
+              <img src="img/hashicorp.svg" alt="logo hashicorp">
+            </div>
+          </div>
+
+          <div class="customer-logo-container">
+            <div class="customer-logo">
+              <img src="img/splunk.svg" alt="logo splunk">
+            </div>
+          </div>
+
           <a href="#" class="customer-stories text-bold text-blue">View customer stories <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+
         </div>
       </section>
       <!-- end Sezione Customers -->
