@@ -19,36 +19,39 @@
   <body>
 
     <!-- Barra di navigazione -->
-    <nav class="bl-navbar navbar-default">
+    <nav class="bl-navbar">
       <div class="container">
+
         <div class="row">
-          <div class="navbar-header col-md-1">
+          <div class="col-md-1">
             <div class="logo">
               <a href="#"><img src="img/digital-ocean.png" alt="logo di digital ocean" /></a>
             </div>
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-navbar-collapse" aria-expanded="false">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+            <div class="nav-burger">
+              <button type="button" class="visible-xs visible-sm pull-right">
+                <span class="button-bar"></span>
+                <span class="button-bar"></span>
+                <span class="button-bar"></span>
+              </button>
+            </div>
           </div>
 
-          <div class="collapse navbar-collapse bs-navbar-collapse col-md-1 col-md-offset-2">
+          <div class="nav-list col-md-5 col-md-offset-2 hidden-xs hidden-sm">
             <ul class="nav navbar-nav">
-              <li><span><a href="#" class="text-capitalize">products <i class="fa fa-chevron-down" aria-hidden="true"></i></a></span></li>
-              <li><span><a href="#" class="text-capitalize">customers</a></span></li>
-              <li><span><a href="#" class="text-capitalize">community <i class="fa fa-chevron-down" aria-hidden="true"></i></a></span></li>
-              <li><span><a href="#" class="text-capitalize">pricing</a></span></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">products <i class="fa fa-chevron-down" aria-hidden="true"></i></a></span></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">customers</a></span></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">community <i class="fa fa-chevron-down" aria-hidden="true"></i></a></span></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">pricing</a></span></li>
             </ul>
           </div>
 
-          <div class="collapse navbar-collapse bs-navbar-collapse col-md-1 col-md-offset-1">
+          <div class="nav-list col-md-4 hidden-xs hidden-sm">
             <ul class="nav navbar-nav navbar-right">
-              <li><span><a href="#" class="text-capitalize">docs</a></span></li>
-              <li><span><a href="#" class="text-capitalize">support <i class="fa fa-chevron-down" aria-hidden="true"></i></a></span></li>
-              <li><span><a href="#" class="text-capitalize">login</a></span></li>
-              <li><button class="text-capitalize btn sign-up-btn text-blue">sign up</button></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">docs</a></span></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">support <i class="fa fa-chevron-down" aria-hidden="true"></i></a></span></li>
+              <li class="text-bold text-darkblue"><span><a href="#" class="text-capitalize">login</a></span></li>
+              <li><button class="text-capitalize btn sign-up-btn text-blue text-bold">sign up</button></li>
             </ul>
           </div>
 

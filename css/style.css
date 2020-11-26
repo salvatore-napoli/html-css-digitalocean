@@ -39,63 +39,83 @@ i.fa.fa-angle-right {
   padding-left: 8px;
   font-weight: bold;
 }
+
+i.fa.fa-chevron-down {
+  margin-left: -4px;
+}
 /* end UTILITY CLASS */
 
 /* Navbar restyling */
 .bl-navbar {
-  background-image: none;
-  border-radius: 0;
-  background-color: white;
-  box-shadow: none;
   height: 65px;
 }
 
-.bl-navbar .navbar-header .logo {
-  height: 28px;
+.bl-navbar .logo {
+  height: 27px;
   line-height: 65px;
-  padding-right: 150px;
 }
 
-.bl-navbar .navbar-header .logo img {
+.bl-navbar .logo img {
   height: 100%;
 }
 
-.bl-navbar .navbar-header button.navbar-toggle {
-  border: 0;
-  padding: 0;
-  margin-top: 0;
-  margin-right: 0;
+/* Burger restyling */
+.bl-navbar .nav-burger button {
+  border: none;
+  width: 22px;
+  height: 22px;
+  background: none;
 }
 
-.bl-navbar .navbar-header button.navbar-toggle .icon-bar {
+.bl-navbar .nav-burger button .button-bar {
   background-color: #5299FD;
   height: 3px;
+  width: 18px;
+  display: inline-block;
+  position: relative;
+  right: 5px;
+  bottom: 11px;
+  border-radius: 4px;
 }
 
-.bl-navbar .navbar-collapse ul.navbar-nav > li > span,
-.bl-navbar .navbar-collapse ul.navbar-right > li:last-child {
+.bl-navbar .nav-burger button .button-bar:nth-child(2){
+  bottom: 25px;
+}
+
+.bl-navbar .nav-burger button .button-bar:nth-child(3){
+  bottom: 39px;
+}
+/* end Burger restyling */
+
+.bl-navbar .nav-list ul > li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bl-navbar .nav-list ul > li > span,
+.bl-navbar .nav-list ul.navbar-right > li:last-child {
   line-height: 73px;
 }
 
-.bl-navbar .navbar-collapse ul.navbar-nav > li > span > a {
-  color: black;
+.bl-navbar .nav-list ul > li > span > a {
+  color: inherit;
   padding: 0;
-  padding-right: 15px;
+  padding-right: 16px;
   text-decoration: none;
 }
 
-.bl-navbar .navbar-collapse ul.navbar-nav > li > span > a:hover {
+.bl-navbar .nav-list ul > li > span > a:hover {
   color: #5299FD;
 }
 
-.bl-navbar .navbar-collapse ul.navbar-right > li > .sign-up-btn {
-  background: transparent;
+.bl-navbar .nav-list ul.navbar-right > li > .sign-up-btn {
+  background: white;
   border-color: #006aff;
   height: 35px;
   width: 80px;
 }
 
-.bl-navbar .navbar-collapse ul.navbar-right > li > .sign-up-btn:hover {
+.bl-navbar .nav-list ul.navbar-right > li > .sign-up-btn:hover {
   background-color: #5299FD;
   color: white;
 }
