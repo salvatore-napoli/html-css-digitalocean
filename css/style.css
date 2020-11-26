@@ -7,12 +7,21 @@
   color: #0069ff;
 }
 
-.text-grey {
-  color: #7d7575;
+.text-opaque {
+  color: white;
+  opacity: .6;
 }
 
 .text-darkblue {
   color: #031B4E;
+}
+
+.text-grey {
+  color: rgba(3,27,78,.5);
+}
+
+.text-aqua {
+  color: #00d7d2;
 }
 
 .text-bold {
@@ -136,10 +145,6 @@ h1 {
   padding-top: 60px;
 }
 
-header .jumbotron-description {
-  color: #D7F5FF;
-}
-
 header .form-container {
   background-color: white;
   border-radius: 5px;
@@ -188,137 +193,155 @@ header .form-container .terms-service a {
 /* end Jumbotron */
 
 /* Sezione Customers */
-main > .customers {
+main > #customers {
   background-color: #F3F5F9;
   padding: 30px 0;
 }
 
-main > .customers h3 {
+main > #customers h3 {
   padding-bottom: 35px;
 }
 
-main > .customers .customer-logo-container {
+main > #customers .customer-logo-container {
   display: inline-block;
 }
 
-main > .customers .customer-logo-container:nth-child(2n+2) {
+main > #customers .customer-logo-container:nth-child(2n+2) {
   padding-right: 50px;
 }
 
-main > .customers .customer-logo-container:nth-child(-n+4) {
+main > #customers .customer-logo-container:nth-child(-n+4) {
   padding-bottom: 70px;
 }
 
-main > .customers .customer-logo-container .customer-logo {
+main > #customers .customer-logo-container .customer-logo {
   display: inline-block;
   width: 200px;
 }
 
-main > .customers .customer-logo-container .customer-logo img {
+main > #customers .customer-logo-container .customer-logo img {
   width: 100%;
 }
 
-main > .customers .customer-stories {
+main > #customers .customer-stories {
   font-size: 17px;
   display: block;
 }
 /* end Sezione Customers */
 
 /* Sezione Deployment */
-main > .deployment {
+main > #deployment{
   padding: 65px 0;
 }
 
-main > .deployment .deployment-description {
+main > #deployment #deployment-description {
   padding-bottom: 60px;
 }
 
-main > .deployment ul {
+main > #deployment ul {
   padding-bottom: 25px;
 }
 
-main > .deployment ul > li {
+main > #deployment ul > li {
   border-left: 2px solid #7d7575;
   padding-left: 15px;
   font-size: 22px;
 }
 
-main > .deployment ul > li:hover {
+main > #deployment ul > li:hover {
   color: darkblue;
   border-left: 2px solid darkblue;
 }
 
-main > .deployment ul > li:first-child {
+main > #deployment ul > li:first-child {
   padding-top: 10px;
 }
 
-main > .deployment ul > li:nth-child(-n+4) {
+main > #deployment ul > li:nth-child(-n+4) {
   padding-bottom: 20px;
 }
 
-main > .deployment ul > li:last-child {
+main > #deployment ul > li:last-child {
   padding-bottom: 10px;
 }
 
-main > .deployment .deploy-feature .deploy-desc {
+main > #deployment .deploy-feature .deploy-desc {
   font-size: 19px;
 }
 /* end Sezione Deployment */
 
 /* Sezione Developers */
-main > .developers {
+main > #developers {
   background-color: #F3F5F9;
   padding-top: 70px;
 }
 
-main > .developers h2 {
+main > #developers h2 {
   padding-bottom: 20px;
 }
 
-main > .developers .droplets-figure img {
+main > #developers .droplets-figure img {
   padding-top: 135px;
   padding-bottom: 20px;
   height: 350px;
 }
 
-main > .developers .droplets-figure figcaption {
+main > #developers .droplets-figure figcaption {
   font-size: 16px;
   padding-bottom: 80px;
 }
 
-main > .developers ul {
+main > #developers ul {
   padding-bottom: 50px;
 }
 
-main > .developers ul li {
+main > #developers ul li {
   height: 13px;
   width: 13px;
   border: 1px solid #0069ff;
   border-radius: 50%;
 }
 
-main > .developers ul li:first-child,
-main > .developers ul li:active {
+main > #developers ul li:first-child,
+main > #developers ul li:active {
   background-color: #0069ff;
 }
 /* end Sezione Developers */
 
 /* Sezione Business */
-main > .business {
+main > #business {
   padding: 70px 0;
 }
 
-main > .business .business-feature img {
+main > #business .business-feature img {
   padding-top: 30px;
 }
 
-main > .business .business-feature p,
-main > .business .business-feature a {
+main > #business .business-feature p,
+main > #business .business-feature a {
   font-size: 17px;
 }
 /* end Sezione Business */
 
+/* Sezione Worldwide */
+main > #worldwide {
+  background-color: #0043C2;
+  padding: 70px 0 50px;
+}
 
+main > #worldwide .regions {
+  padding-bottom: 40px;
+}
+
+main > #worldwide .regions ul.list-bordered {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+main > #worldwide .regions .list-bordered .city {
+  padding-left: 50px;
+}
+/* end Sezione Worldwide */
 
 /* Versione Tablet */
 @media screen and (min-width: 768px) {
@@ -326,43 +349,43 @@ main > .business .business-feature a {
     margin-top: 65px;
   }
 
-  main > .customers h3 {
+  main > #customers h3 {
     padding-bottom: 0px;
   }
 
-  main > .customers .customer-logo-container,
-  main > .customers .customer-logo-container:nth-child(2n+2) {
+  main > #customers .customer-logo-container,
+  main > #customers .customer-logo-container:nth-child(2n+2) {
     padding-right: 10px;
   }
 
-  main > .customers .customer-logo-container:nth-child(-n+4) {
+  main > #customers .customer-logo-container:nth-child(-n+4) {
     padding-bottom: 0;
   }
 
-  main > .customers .customer-logo-container .customer-logo {
+  main > #customers .customer-logo-container .customer-logo {
     width: 100px;
   }
 
-  main > .deployment .deploy-feature {
+  main > #deployment .deploy-feature {
     min-height: 270px;
   }
 
-  main > .developers .droplets-figure i.fa-chevron-right,
-  main > .developers .droplets-figure i.fa-chevron-left {
+  main > #developers .droplets-figure i.fa-chevron-right,
+  main > #developers .droplets-figure i.fa-chevron-left {
     font-size: 35px;
     font-weight: bold;
     padding: 0 10px;
   }
 
-  main > .developers .droplets-figure i.fa-chevron-right {
+  main > #developers .droplets-figure i.fa-chevron-right {
     color: #031B4E;
   }
 
-  main > .developers .droplets-figure i.fa-chevron-left {
+  main > #developers .droplets-figure i.fa-chevron-left {
     color: rgba(3, 27, 78, 0.5);
   }
 
-  main > .developers .droplets-figure img {
+  main > #developers .droplets-figure img {
     height: 400px;
     vertical-align: -100px;
   }
@@ -383,20 +406,20 @@ main > .business .business-feature a {
     margin-top: 50px;
   }
 
-  main > .customers .customer-logo-container .customer-logo {
+  main > #customers .customer-logo-container .customer-logo {
     width: 170px;
   }
 
-  main > .deployment .deploy-feature {
+  main > #deployment .deploy-feature {
     min-height: 200px;
   }
 
-  main > .developers .droplets-figure i.fa-chevron-right,
-  main > .developers .droplets-figure i.fa-chevron-left {
+  main > #developers .droplets-figure i.fa-chevron-right,
+  main > #developers .droplets-figure i.fa-chevron-left {
     padding: 0 30px;
   }
 
-  main > .developers .droplets-figure img {
+  main > #developers .droplets-figure img {
     height: 600px;
     vertical-align: -200px;
   }
