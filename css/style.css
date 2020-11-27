@@ -48,12 +48,16 @@ p {
   font-size: 22px;
 }
 
+.pointer-cursor:hover {
+  cursor: pointer;
+}
+
 .angle-right {
   padding-left: 8px;
   font-weight: bold;
 }
 
-i.fa.fa-chevron-down {
+.nearer-chevron-down {
   margin-left: -4px;
 }
 
@@ -64,12 +68,14 @@ i.fa.fa-chevron-down {
   padding: 0 10px;
 }
 
-.big-chevron-right {
-  color: #031B4E;
+.big-chevron-left,
+.big-chevron-left:hover .big-chevron-right {
+  color: rgba(3, 27, 78, 0.5);
 }
 
-.big-chevron-left {
-  color: rgba(3, 27, 78, 0.5);
+.big-chevron-right,
+.big-chevron-left:hover {
+  color: #031B4E;
 }
 
 .slide-tracker-circle {
@@ -178,7 +184,7 @@ i.fa.fa-chevron-down {
 }
 
 .bl-navbar .nav-list ul > li > span,
-.bl-navbar .nav-list ul.navbar-right > li:last-child {
+.bl-navbar .nav-list ul.right-navbar > li:last-child {
   line-height: 73px;
 }
 
@@ -193,14 +199,14 @@ i.fa.fa-chevron-down {
   color: #5299FD;
 }
 
-.bl-navbar .nav-list ul.navbar-right > li > .sign-up-btn {
+.bl-navbar .nav-list ul.right-navbar > li > .sign-up-btn {
   background: white;
   border-color: #006aff;
   height: 35px;
   width: 80px;
 }
 
-.bl-navbar .nav-list ul.navbar-right > li > .sign-up-btn:hover {
+.bl-navbar .nav-list ul.right-navbar > li > .sign-up-btn:hover {
   background-color: #5299FD;
   color: white;
 }
@@ -221,11 +227,7 @@ header .form-container {
   background-color: white;
   border-radius: 5px;
   margin-bottom: 60px;
-  padding-bottom: 40px;
-}
-
-header .form-container h2:first-child {
-  padding-top: 30px;
+  padding: 20px 0 30px;
 }
 
 header .form-container h2:nth-child(2) {
@@ -233,14 +235,18 @@ header .form-container h2:nth-child(2) {
 }
 
 /* Form restyling */
-header .form-container .bl-form .form-group:first-child .form-control,
-header .form-container .bl-form .form-group:nth-child(2) .form-control {
+header .form-container .bl-form .form-group {
+  width: 90%;
+  display: inline-block;
+}
+
+header .form-container .bl-form .form-group:nth-child(-n+2) .form-control {
   border-color: rgba(201, 201, 201, 0.3);
   height: 50px;
   padding-left: 8px;
 }
 
-header .form-container .bl-form .form-control::placeholder {
+header .form-container .bl-form .form-group .form-control::placeholder {
   color: #7D7575;
   font-weight: bold;
   font-size: 18px;
@@ -306,7 +312,7 @@ main > #deployment{
   padding: 65px 0;
 }
 
-main > #deployment #deployment-description {
+main > #deployment .deployment-description {
   padding-bottom: 60px;
 }
 
@@ -395,6 +401,10 @@ main > #worldwide .regions {
 main > #worldwide .regions ul.list-bordered {
   border-bottom: 1px solid white;
   padding: 10px;
+}
+
+main > #worldwide .regions .list-bordered .city-code {
+  width: 50px;
 }
 
 main > #worldwide .regions .list-bordered .city {
