@@ -85,6 +85,51 @@ i.fa.fa-chevron-down {
 }
 /* end UTILITY CLASS */
 
+/* Popup chat */
+.chat-popup {
+  background-color: white;
+  width: 310px;
+  height: 55px;
+  position: absolute;
+  top: 70px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.chat {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 120px;
+  left: 30px;
+  z-index: 1001;
+}
+
+.chat-notification-circle {
+  border-radius: 50%;
+  background-color: white;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  right: -13px;
+  bottom: 34px;
+}
+
+.chat-notification {
+  border-radius: 50%;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  font-size: 11px;
+  line-height: 18px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+/* end Popup chat */
+
 /* Navbar restyling */
 .bl-navbar {
   height: 65px;
@@ -408,7 +453,7 @@ main > #get-started .accnt-create {
 /* Footer */
 footer {
   background-color: #031B4E;
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 footer .proud {
@@ -474,6 +519,27 @@ footer .footer-link {
 
 /* VERSIONE DESKTOP */
 @media screen and (min-width: 992px) {
+
+  .chat-popup {
+    right: 80px;
+    bottom: 0;
+  }
+
+  .chat {
+    bottom: 30px;
+    right: 30px;
+  }
+
+  .chat-notification-circle {
+    right: -10px;
+    bottom: 30px;
+  }
+
+  .chat-notification {
+    left: 5px;
+    top: 5px;
+  }
+
   h1 {
     font-size: 60px;
   }
