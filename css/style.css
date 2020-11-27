@@ -102,10 +102,27 @@ p {
   padding: 10px;
 }
 
+.chat-popup:after {
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 55%;
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	margin-right: -7px;
+}
+
 .chat {
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background-image: url('../img/shark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0069ff;
+  background-position: center;
   border-radius: 5px;
   position: fixed;
   bottom: 120px;
@@ -131,8 +148,8 @@ p {
   font-size: 11px;
   line-height: 18px;
   position: relative;
-  top: 5px;
-  left: 5px;
+  top: 4.5px;
+  left: 4.5px;
 }
 /* end Popup chat */
 
@@ -531,23 +548,18 @@ footer .footer-link {
 @media screen and (min-width: 992px) {
 
   .chat-popup {
-    right: 80px;
-    bottom: 0;
+    left: -325px;
+    top: -5px;
   }
 
   .chat {
     bottom: 30px;
-    right: 30px;
+    left: calc(100% - 80px);
   }
 
   .chat-notification-circle {
     right: -10px;
     bottom: 30px;
-  }
-
-  .chat-notification {
-    left: 5px;
-    top: 5px;
   }
 
   h1 {
