@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .h3-style {
@@ -308,8 +308,7 @@ main > #developers h2 {
 }
 
 main > #developers .droplets-figure img {
-  padding-top: 135px;
-  padding-bottom: 20px;
+  padding: 135px 0 20px;
   height: 350px;
 }
 
@@ -405,6 +404,31 @@ main > #get-started .accnt-create {
   margin-bottom: 70px;
 }
 /* end Sezione Get Started */
+
+/* Footer */
+footer {
+  background-color: #031B4E;
+  padding-top: 70px;
+}
+
+footer .proud {
+  opacity: .4;
+}
+
+footer .social-link {
+  font-size: 23px;
+  padding-right: 10px;
+}
+
+footer .link-group {
+  font-size: 16px;
+  padding: 20px 0 8px;
+}
+
+footer .footer-link {
+  padding-bottom: 8px;
+}
+/* end Footer */
 
 /* VERSIONE TABLET */
 @media screen and (min-width: 768px) {
