@@ -100,6 +100,7 @@ p {
   top: 70px;
   border-radius: 5px;
   padding: 9px 10px 10px;
+  display: none;
 }
 
 .chat-popup:after {
@@ -128,6 +129,10 @@ p {
   bottom: 120px;
   left: 30px;
   z-index: 1001;
+}
+
+.chat:hover .chat-popup {
+  display: block;
 }
 
 .chat-notification-circle {
