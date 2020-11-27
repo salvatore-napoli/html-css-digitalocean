@@ -99,7 +99,7 @@ p {
   position: absolute;
   top: 70px;
   border-radius: 5px;
-  padding: 10px;
+  padding: 9px 10px 10px;
 }
 
 .chat-popup:after {
@@ -121,8 +121,8 @@ p {
   background-image: url('../img/shark.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #0069ff;
   background-position: center;
+  background-color: #0069ff;
   border-radius: 5px;
   position: fixed;
   bottom: 120px;
@@ -377,12 +377,14 @@ main > #developers h2 {
 
 main > #developers .droplets-figure img {
   padding: 135px 0 20px;
-  height: 350px;
+  height: 370px;
 }
 
 main > #developers .droplets-figure figcaption {
   font-size: 16px;
   padding-bottom: 80px;
+  width: 320px;
+  margin: 0 auto;
 }
 
 main > #developers ul {
@@ -469,7 +471,7 @@ main > #get-started h2 {
 
 main > #get-started .accnt-create {
   width: 210px;
-  height: 50px;
+  line-height: 35px;
   background: white;
   font-size: 18px;
   border-radius: 5px;
@@ -530,8 +532,12 @@ footer .footer-link {
   }
 
   main > #developers .droplets-figure img {
-    height: 400px;
+    height: 420px;
     vertical-align: -100px;
+  }
+
+  main > #developers .droplets-figure figcaption {
+    width: 380px;
   }
 
   main > #teams .team-slider {
@@ -546,7 +552,6 @@ footer .footer-link {
 
 /* VERSIONE DESKTOP */
 @media screen and (min-width: 992px) {
-
   .chat-popup {
     left: -325px;
     top: -5px;
@@ -595,6 +600,11 @@ footer .footer-link {
   main > #developers .droplets-figure img {
     height: 600px;
     vertical-align: -200px;
+    padding-top: 70px;
+  }
+
+  main > #developers .droplets-figure figcaption {
+    padding-bottom: 15px;
   }
 
   main > #teams .team-slider {
