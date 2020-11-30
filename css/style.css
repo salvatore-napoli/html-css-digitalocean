@@ -97,7 +97,7 @@ p {
 }
 
 .big-chevron-left,
-.big-chevron-left:hover .big-chevron-right {
+.big-chevron-left:hover ~ .big-chevron-right {
   color: rgba(3, 27, 78, 0.5);
 }
 
