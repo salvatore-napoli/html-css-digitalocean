@@ -29,7 +29,7 @@
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 34px;
 }
 
 .smaller-h2 {
@@ -46,6 +46,34 @@ h3 {
 
 p {
   font-size: 22px;
+}
+
+.pad-bot-20 {
+  padding-bottom: 20px;
+}
+
+.pad-top-30 {
+  padding-top: 30px;
+}
+
+.pad-bot-30 {
+  padding-bottom: 30px;
+}
+
+.pad-bot-50 {
+  padding-bottom: 50px;
+}
+
+.pad-top-60 {
+  padding-top: 60px;
+}
+
+.pad-top-70 {
+  padding-top: 70px;
+}
+
+.pad-bot-70 {
+  padding-bottom: 70px;
 }
 
 .pointer-cursor:hover {
@@ -239,17 +267,13 @@ header {
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-h1 {
-  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 header .form-container {
   background-color: white;
   border-radius: 5px;
-  margin-bottom: 60px;
-  padding: 20px 0 30px;
+  padding-top: 20px;
 }
 
 header .form-container h2:nth-child(2) {
@@ -295,11 +319,7 @@ header .form-container .terms-service a {
 /* Sezione Customers */
 main > #customers {
   background-color: #F3F5F9;
-  padding: 30px 0;
-}
-
-main > #customers h3 {
-  padding-bottom: 35px;
+  padding-top: 30px;
 }
 
 main > #customers .customer-logo-container {
@@ -308,10 +328,6 @@ main > #customers .customer-logo-container {
 
 main > #customers .customer-logo-container:nth-child(2n+2) {
   padding-right: 50px;
-}
-
-main > #customers .customer-logo-container:nth-child(-n+4) {
-  padding-bottom: 70px;
 }
 
 main > #customers .customer-logo-container .customer-logo {
@@ -330,18 +346,6 @@ main > #customers .customer-stories {
 /* end Sezione Customers */
 
 /* Sezione Deployment */
-main > #deployment{
-  padding: 65px 0;
-}
-
-main > #deployment .deployment-description {
-  padding-bottom: 60px;
-}
-
-main > #deployment ul {
-  padding-bottom: 25px;
-}
-
 main > #deployment ul > li {
   border-left: 2px solid #7d7575;
   padding-left: 15px;
@@ -357,10 +361,6 @@ main > #deployment ul > li:first-child {
   padding-top: 10px;
 }
 
-main > #deployment ul > li:nth-child(-n+4) {
-  padding-bottom: 20px;
-}
-
 main > #deployment ul > li:last-child {
   padding-bottom: 10px;
 }
@@ -373,39 +373,22 @@ main > #deployment .deploy-feature .deploy-desc {
 /* Sezione Developers */
 main > #developers {
   background-color: #F3F5F9;
-  padding-top: 70px;
-}
-
-main > #developers h2 {
-  padding-bottom: 20px;
 }
 
 main > #developers .droplets-figure img {
-  padding: 135px 0 20px;
+  padding-top: 135px;
   height: 370px;
 }
 
 main > #developers .droplets-figure figcaption {
   font-size: 16px;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
   width: 320px;
   margin: 0 auto;
-}
-
-main > #developers ul {
-  padding-bottom: 50px;
 }
 /* end Sezione Developers */
 
 /* Sezione Business */
-main > #business {
-  padding: 70px 0;
-}
-
-main > #business .business-feature img {
-  padding-top: 30px;
-}
-
 main > #business .business-feature p,
 main > #business .business-feature a {
   font-size: 17px;
@@ -415,11 +398,6 @@ main > #business .business-feature a {
 /* Sezione Worldwide */
 main > #worldwide {
   background-color: #0043C2;
-  padding: 70px 0 50px;
-}
-
-main > #worldwide .regions {
-  padding-bottom: 40px;
 }
 
 main > #worldwide .regions ul.list-bordered {
@@ -439,7 +417,6 @@ main > #worldwide .regions .list-bordered .city {
 /* Sezione Teams */
 main > #teams {
   background-color: #F3F5F9;
-  padding: 70px 0 50px;
 }
 
 main > #teams .team-slider {
@@ -461,7 +438,7 @@ main > #teams .team-slider .team-quote {
 }
 
 main > #teams .team-slider .team-story {
-  padding: 25px 0 40px;
+  padding-bottom: 40px;
 }
 /* end Sezione Teams */
 
@@ -470,24 +447,18 @@ main > #get-started {
   background-color: #0043C2;
 }
 
-main > #get-started h2 {
-  padding: 70px 0 40px;
-}
-
 main > #get-started .accnt-create {
   width: 210px;
   line-height: 35px;
   background: white;
   font-size: 18px;
   border-radius: 5px;
-  margin-bottom: 70px;
 }
 /* end Sezione Get Started */
 
 /* Footer */
 footer {
   background-color: #031B4E;
-  padding-top: 60px;
 }
 
 footer .proud {
